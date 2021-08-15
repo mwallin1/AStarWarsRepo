@@ -1,0 +1,109 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &6108219294978768443
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2130649731741699830}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3732263f1fc24ad4797dbe508eb2267c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  renderer: {fileID: 2130649731741699832}
+  highlight: {fileID: 6270269370050119061}
+  isWater: 0
+  isSand: 0
+  tileName: Grass
+  Tenent: {fileID: 0}
+  evenColor: {r: 0.24056602, g: 1, b: 0.2727699, a: 1}
+  oddColor: {r: 0.003070495, g: 0.6509434, b: 0.14479841, a: 1}
+--- !u!1001 &8764802163394718873
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 7220188867231048288, guid: cbbe3daffe14c0547a14c46b235f6161,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7220188867231048288, guid: cbbe3daffe14c0547a14c46b235f6161,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7220188867231048288, guid: cbbe3daffe14c0547a14c46b235f6161,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7220188867231048288, guid: cbbe3daffe14c0547a14c46b235f6161,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7220188867231048288, guid: cbbe3daffe14c0547a14c46b235f6161,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7220188867231048288, guid: cbbe3daffe14c0547a14c46b235f6161,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7220188867231048288, guid: cbbe3daffe14c0547a14c46b235f6161,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7220188867231048288, guid: cbbe3daffe14c0547a14c46b235f6161,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7220188867231048288, guid: cbbe3daffe14c0547a14c46b235f6161,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7220188867231048288, guid: cbbe3daffe14c0547a14c46b235f6161,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7220188867231048288, guid: cbbe3daffe14c0547a14c46b235f6161,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7220188867231048303, guid: cbbe3daffe14c0547a14c46b235f6161,
+        type: 3}
+      propertyPath: m_Name
+      value: Grass
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: cbbe3daffe14c0547a14c46b235f6161, type: 3}
+--- !u!1 &2130649731741699830 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7220188867231048303, guid: cbbe3daffe14c0547a14c46b235f6161,
+    type: 3}
+  m_PrefabInstance: {fileID: 8764802163394718873}
+  m_PrefabAsset: {fileID: 0}
+--- !u!212 &2130649731741699832 stripped
+SpriteRenderer:
+  m_CorrespondingSourceObject: {fileID: 7220188867231048289, guid: cbbe3daffe14c0547a14c46b235f6161,
+    type: 3}
+  m_PrefabInstance: {fileID: 8764802163394718873}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &6270269370050119061 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3361565368730396940, guid: cbbe3daffe14c0547a14c46b235f6161,
+    type: 3}
+  m_PrefabInstance: {fileID: 8764802163394718873}
+  m_PrefabAsset: {fileID: 0}

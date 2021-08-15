@@ -1,0 +1,122 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &2234260158378856665
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4543454255971808392}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7d1e4a4ad3147e4438733bb718316650, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  renderer: {fileID: 4543454255971808390}
+  highlight: {fileID: 8473656787416449003}
+  isWater: 0
+  isSand: 1
+  tileName: Sand
+  Tenent: {fileID: 0}
+--- !u!1001 &6574925703788549863
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 7220188867231048288, guid: cbbe3daffe14c0547a14c46b235f6161,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7220188867231048288, guid: cbbe3daffe14c0547a14c46b235f6161,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7220188867231048288, guid: cbbe3daffe14c0547a14c46b235f6161,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7220188867231048288, guid: cbbe3daffe14c0547a14c46b235f6161,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7220188867231048288, guid: cbbe3daffe14c0547a14c46b235f6161,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7220188867231048288, guid: cbbe3daffe14c0547a14c46b235f6161,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7220188867231048288, guid: cbbe3daffe14c0547a14c46b235f6161,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7220188867231048288, guid: cbbe3daffe14c0547a14c46b235f6161,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7220188867231048288, guid: cbbe3daffe14c0547a14c46b235f6161,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7220188867231048288, guid: cbbe3daffe14c0547a14c46b235f6161,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7220188867231048288, guid: cbbe3daffe14c0547a14c46b235f6161,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7220188867231048289, guid: cbbe3daffe14c0547a14c46b235f6161,
+        type: 3}
+      propertyPath: m_Color.r
+      value: 0.9528302
+      objectReference: {fileID: 0}
+    - target: {fileID: 7220188867231048289, guid: cbbe3daffe14c0547a14c46b235f6161,
+        type: 3}
+      propertyPath: m_Color.g
+      value: 0.78105336
+      objectReference: {fileID: 0}
+    - target: {fileID: 7220188867231048289, guid: cbbe3daffe14c0547a14c46b235f6161,
+        type: 3}
+      propertyPath: m_Color.b
+      value: 0.25618547
+      objectReference: {fileID: 0}
+    - target: {fileID: 7220188867231048303, guid: cbbe3daffe14c0547a14c46b235f6161,
+        type: 3}
+      propertyPath: m_Name
+      value: Sand
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: cbbe3daffe14c0547a14c46b235f6161, type: 3}
+--- !u!1 &4543454255971808392 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7220188867231048303, guid: cbbe3daffe14c0547a14c46b235f6161,
+    type: 3}
+  m_PrefabInstance: {fileID: 6574925703788549863}
+  m_PrefabAsset: {fileID: 0}
+--- !u!212 &4543454255971808390 stripped
+SpriteRenderer:
+  m_CorrespondingSourceObject: {fileID: 7220188867231048289, guid: cbbe3daffe14c0547a14c46b235f6161,
+    type: 3}
+  m_PrefabInstance: {fileID: 6574925703788549863}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &8473656787416449003 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3361565368730396940, guid: cbbe3daffe14c0547a14c46b235f6161,
+    type: 3}
+  m_PrefabInstance: {fileID: 6574925703788549863}
+  m_PrefabAsset: {fileID: 0}
